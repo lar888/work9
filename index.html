@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -16,14 +16,150 @@
 
 <body>
 
-	<h1>Дизайн и верстка</h1>
-	<p>
-		Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
-		для текстов на латинице с начала XVI века.
+	<!-- header -->
+	<header class="header">
+		<!-- container -->
+		<div class="container">
 
-	</p>
+			<!-- navbar -->
+			<nav class="navbar">
+				<ul class="navbar__list">
+					<li class="navbar__item"><a class="navbar__link navbar__link--active" href="#">Home</a></li>
+					<li class="navbar__item"><a class="navbar__link" href="#">About</a></li>
+					<li class="navbar__item"><a class="navbar__link" href="#">Works</a></li>
+					<li class="navbar__item"><a class="navbar__link" href="#">Process</a></li>
+					<li class="navbar__item"><a class="navbar__link" href="#">Contacts</a></li>
+				</ul>
+			</nav><!-- navbar end -->
+
+			<!-- hero -->
+			<div class="hero">
+				<h1 class="hero__title">Design and Layout</h1>
+				<p class="hero__description">
+					Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard
+					dummy text for Latin scripts since the 16th century.
+				</p>
+
+				<a href="#" class="hero__button">Write to me</a>
+			</div><!-- hero end -->
+		</div><!-- container end -->
+	</header><!-- header end -->
+
+	<!-- main -->
+	<main>
+		<!-- about -->
+		<section class="about section">
+			<div class="container-sm">
+				<h2 class="about__title section__title">About me</h2>
+				<p class="about__description section__description">
+					Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard
+					dummy text for Latin scripts since the 16th century.
+				</p>
+			</div>
+		</section><!-- about end -->
+
+		<!-- experience -->
+		<section class="experience">
+			<!-- container -->
+			<div class="container">
+				<h2 class="experience__title visually-hidden">My experience</h2>
+
+				<!-- experience__container -->
+				<div class="experience__container">
+					<div class="experience-item">
+						<div class="experience-item__description">
+							<p class="experience-item__number">40+</p>
+							<p class="experience-item__label">projects</p>
+						</div>
+						<div class="experience-item__picture">
+							<img class="experience-item__image" src="images/project.svg" alt="project">
+						</div>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-item__description">
+							<p class="experience-item__number">40+</p>
+							<p class="experience-item__label">projects</p>
+						</div>
+						<div class="experience-item__picture">
+							<img class="experience-item__image" src="images/project.svg" alt="project">
+						</div>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-item__description">
+							<p class="experience-item__number">40+</p>
+							<p class="experience-item__label">projects</p>
+						</div>
+						<div class="experience-item__picture">
+							<img class="experience-item__image" src="images/project.svg" alt="project">
+						</div>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-item__description">
+							<p class="experience-item__number">40+</p>
+							<p class="experience-item__label">projects</p>
+						</div>
+						<div class="experience-item__picture">
+							<img class="experience-item__image" src="images/project.svg" alt="project">
+						</div>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-item__description">
+							<p class="experience-item__number">40+</p>
+							<p class="experience-item__label">projects</p>
+						</div>
+						<div class="experience-item__picture">
+							<img class="experience-item__image" src="images/project.svg" alt="project">
+						</div>
+					</div>
+
+					<div class="experience-item">
+						<div class="experience-item__description">
+							<p class="experience-item__number">40+</p>
+							<p class="experience-item__label">projects</p>
+						</div>
+						<div class="experience-item__picture">
+							<img class="experience-item__image" src="images/project.svg" alt="project">
+						</div>
+					</div>
+				</div><!-- experience__container end -->
+			</div><!-- container end -->
+		</section>
+
+		<!-- process -->
+		<section class="process section">
+			<div class="container-sm">
+				<h2 class="process__title section__title">How I Work</h2>
+				<p class="process__description section__description">
+					Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard
+					dummy text for Latin scripts since the 16th century.
+				</p>
+			</div>
+		</section><!-- process end -->
+
+		<!-- video -->
+		<section class="video">
+			<div class="container">
+				<h2 class="video__title visually-hidden">Video</h2>
+				<iframe class="video__iframe" width="560" height="315"
+					src="https://www.youtube.com/embed/ATK9oYoKL4w?si=BBb0spI_CM0MFbcs" title="YouTube video player"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</section>
+	</main><!-- main end -->
 
 
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="footer__title">Ostap Ivanenko</div>
+			<div class="footer__description">© 2018. All rights reserved.</div>
+		</div>
+	</footer><!-- footer end -->
 </body>
 
 </html>
