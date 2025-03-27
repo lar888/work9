@@ -212,3 +212,32 @@ footer {
   font-size: 0.8125rem;
   line-height: var(--line-height);
 }
+
+@media (width < 1005px) {
+  .header {
+    padding-bottom: 80px;
+  }
+  .navbar {
+    margin-bottom: 70px;
+  }
+  .experience__container {
+    justify-content: space-evenly;
+  }
+}
+
+@media (width < 576px) {
+  .navbar {
+    margin-bottom: 50px;
+  }
+  .navbar__list {
+    justify-content: center;
+  }
+  .hero {
+    text-align: center;
+    align-items: center;
+  }
+  .about,
+  .process {
+    padding: 70px 0px 45px 0px;
+  }
+}
